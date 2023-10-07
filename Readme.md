@@ -8,4 +8,4 @@ Youtube video->[https://www.youtube.com/watch?v=b3Gqq_k-g24]
 GitHub->[https://github.com/safak/youtube/tree/html-css-js-ecommerce]
 Font used ->[https://fonts.google.com/]
 
-Time Stamp [31min]
+Time Stamp [48min]
