@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'lato',sans-serif;
   padding: 0;
@@ -177,12 +181,95 @@ nav{
   height: 100px;
 }
 
+.payment{
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+  flex-direction: column;
+  padding: 10px 50px;
+  -webkit-box-shadow: 8px 5px 15px 5px #000000; 
+box-shadow: 8px 5px 15px 5px #000000;
+}
+
 .product{
   height: 100vh;
   background-color: whitesmoke;
   position: relative;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
 
+}
+
+.payTitle{
+  font-size: 20px;
+  color: lightgray;
+}
+
+label{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.payInput{
+  padding: 10px;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.cardIcons{
+  display: flex;
+}
+
+.cardIcon{
+  margin-right: 10px;
+}
+
+.cardInfo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sm{
+  display: flex;
+  justify-content: space-between;
+}
+
+.payButton{
+  position: absolute;
+  height: 40px;
+  bottom: -40;
+  width: 100%;
+  left: 0;
+  -webkit-box-shadow: 8px 5px 15px 5px #000000; 
+  box-shadow: 8px 5px 15px 5px #000000;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.payInput::placeholder{
+  color: rgb(163, 163, 163);
+}
+
+.close{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 10%;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .productImg{
@@ -247,5 +334,18 @@ nav{
 .productButton:hover{
   background-color: white;
   color: black;
+}
 
+.gallery{
+  display: flex;
+  padding: 50px;
+}
+
+.galleryItem{
+  flex: 1;
+  padding: 50px;  
+}
+
+.galleryImg{
+  width: 100%;
 }
