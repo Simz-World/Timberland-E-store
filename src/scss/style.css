@@ -1,6 +1,9 @@
 nav {
-  background: red;
+  background: white;
   background-color: red;
 }
 
-/*# sourceMappingURL=style.css.map */
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */
