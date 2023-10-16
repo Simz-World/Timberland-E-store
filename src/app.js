@@ -2,15 +2,15 @@ const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
 
 const products = [
-{id:1,title: "Air Force",price: 119,colors: [{code:"black",img: "./youtube-html-css-js-ecommerce/img/air.png",},{code: "darkblue",img:"./youtube-html-css-js-ecommerce/img/air2.png"}]},
+{id:1,title: "ORIGINAL",price: 2000,colors: [{code:"black",img: "./assets/1Timb OG black.png",},{code: "gray",img:"./assets/1Timb OG gray.png"}]},
 
-{id:2,title: "Air Jordan",price: 149,colors: [{code:"lightgray",img: "./youtube-html-css-js-ecommerce/img/jordan.png.png"},{code: "green",img:"./youtube-html-css-js-ecommerce/img/jordan2.png"}]},
+{id:2,title: "TRAVEL",price: 2500,colors: [{code:"brown",img: "./assets/2Timb hike Brown.png"}]},
 
-{id:3,title: "Blazer",price: 109,colors: [{code:"lightgray",img: "./youtube-html-css-js-ecommerce/img/blazer.png"},{code: "green",img:"./youtube-html-css-js-ecommerce/img/blazer2.png"}]},
+{id:3,title: "FORMAL",price: 1800,colors: [{code:"brown",img: "./assets/3Timb buck brown.png"}]},
 
-{id:4,title: "Crater",price: 129,colors: [{code:"black",img: "./youtube-html-css-js-ecommerce/img/crater.png"},{code: "lightgray",img:"./youtube-html-css-js-ecommerce/img/crater2.png"}]},
+{id:4,title: "SPORT",price: 2200,colors: [{code:"brown",img: "./assets/4Timb Ultra.png"}]},
 
-{id:5,title: "Hippie",price: 99,colors: [{code:"gray",img: "./youtube-html-css-js-ecommerce/img/hippie.png"},{code: "black",img:"./youtube-html-css-js-ecommerce/img/hippie2.png"}],}
+{id:5,title: "CASUAL",price: 950,colors: [{code:"gray",img: "./assets/5Timb walsh gray.png"}]}
 ]
 
 let chosenProduct = products[0]
