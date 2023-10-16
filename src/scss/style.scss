@@ -17,30 +17,6 @@ body {
   margin: 0;
 }
 
-.menuItem {
-  margin-right: 50px;
-  cursor: pointer;
-  color: lightgray;
-  font-weight: 400;
-}
-
-.buyButton {
-  position: absolute;
-  top: 50%;
-  right: 10%;
-  font-size: 30px;
-  font-weight: 900;
-  color: white;
-  border: 1px solid gray;
-  background-color: black;
-  z-index: 1;
-  cursor: pointer;
-}
-
-.buyButton:hover {
-  background-color: white;
-  color: black;
-}
 
 label {
   font-size: 14px;
