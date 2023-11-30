@@ -1,5 +1,7 @@
 This is a E-COmmerce store im making for the Timberland boot inspired from the NIKE E-Commerce Store,and is in the final stages of construction.
 
+[https://timberland.co.za/] - INSPIRATION
+
 [What i learned]
 how to work with the Nth child Selector in CSS,
 The different compartments in building a E-commerce website,
